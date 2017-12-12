@@ -106,7 +106,7 @@
         <Button
             android:id="@+id/button6"
             style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="80dp"
+            android:layout_width="81dp"
             android:layout_height="80dp"
             android:layout_weight="1"
             android:text="@string/_4"
