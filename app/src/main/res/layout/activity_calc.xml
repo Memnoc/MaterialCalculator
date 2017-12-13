@@ -33,9 +33,11 @@
 
     <Button
         android:id="@+id/button30"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="7"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button33"
         app:layout_constraintEnd_toStartOf="@+id/button31"
         app:layout_constraintHorizontal_bias="0.5"
@@ -44,9 +46,11 @@
 
     <Button
         android:id="@+id/button31"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="8"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button34"
         app:layout_constraintEnd_toStartOf="@+id/button32"
         app:layout_constraintHorizontal_bias="0.5"
@@ -55,9 +59,11 @@
 
     <Button
         android:id="@+id/button32"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="9"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button35"
         app:layout_constraintEnd_toStartOf="@+id/imageButton"
         app:layout_constraintHorizontal_bias="0.5"
@@ -66,9 +72,11 @@
 
     <Button
         android:id="@+id/button33"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="4"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button36"
         app:layout_constraintEnd_toStartOf="@+id/button34"
         app:layout_constraintHorizontal_bias="0.5"
@@ -78,9 +86,11 @@
 
     <Button
         android:id="@+id/button34"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="5"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button37"
         app:layout_constraintEnd_toStartOf="@+id/button35"
         app:layout_constraintHorizontal_bias="0.5"
@@ -89,9 +99,11 @@
 
     <Button
         android:id="@+id/button35"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="6"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button38"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -100,9 +112,11 @@
 
     <Button
         android:id="@+id/button36"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="1"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button39"
         app:layout_constraintEnd_toStartOf="@+id/button37"
         app:layout_constraintHorizontal_bias="0.5"
@@ -111,9 +125,11 @@
 
     <Button
         android:id="@+id/button37"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="2"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button40"
         app:layout_constraintEnd_toStartOf="@+id/button38"
         app:layout_constraintHorizontal_bias="0.5"
@@ -122,9 +138,11 @@
 
     <Button
         android:id="@+id/button38"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="3"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button41"
         app:layout_constraintEnd_toStartOf="@+id/imageButton3"
         app:layout_constraintHorizontal_bias="0.5"
@@ -133,9 +151,11 @@
 
     <Button
         android:id="@+id/button39"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="."
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button40"
         app:layout_constraintHorizontal_bias="0.5"
@@ -144,9 +164,11 @@
 
     <Button
         android:id="@+id/button40"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="0"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button41"
         app:layout_constraintHorizontal_bias="0.5"
@@ -155,9 +177,11 @@
 
     <Button
         android:id="@+id/button41"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Button"
+        android:text="DEL"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButton4"
         app:layout_constraintHorizontal_bias="0.5"
@@ -165,10 +189,11 @@
         app:layout_constraintTop_toBottomOf="@+id/button38" />
 
     <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
         android:id="@+id/imageButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/divide"
         app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -176,10 +201,11 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
     <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
         android:id="@+id/imageButton2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/multiply"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -187,10 +213,11 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
     <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
         android:id="@+id/imageButton3"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/subtract"
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -198,10 +225,11 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 
     <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
         android:id="@+id/imageButton4"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/add"
         app:layout_constraintBottom_toTopOf="@+id/imageButton5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -209,6 +237,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
 
     <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
         android:id="@+id/imageButton5"
         android:layout_width="0dp"
         android:layout_height="0dp"
