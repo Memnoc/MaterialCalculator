@@ -23,8 +23,18 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginTop="40dp"
-            android:text="2345"
+            android:layout_marginTop="43dp"
+            android:paddingLeft="10sp"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toStartOf="@+id/signView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/signView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="43dp"
             android:textSize="36sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
