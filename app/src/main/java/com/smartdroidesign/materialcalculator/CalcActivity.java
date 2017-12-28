@@ -249,8 +249,9 @@ public class CalcActivity extends Activity {
                 }catch (Exception e){
                     result = "Error";
                 }
-
+                result = result.replaceAll("[.0]*$", "");
                 resultsText.setText(result);
+
 
 
             }
