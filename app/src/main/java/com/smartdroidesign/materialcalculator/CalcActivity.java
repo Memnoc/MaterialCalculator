@@ -26,29 +26,29 @@ public class CalcActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc);
 
-        Button oneButton = (Button)findViewById(R.id.oneButton);
-        Button twoButton = (Button)findViewById(R.id.twoButton);
-        Button threeButton = (Button)findViewById(R.id.threeButton);
-        Button fourButton = (Button)findViewById(R.id.fourButton);
-        Button fiveButton = (Button)findViewById(R.id.fiveButton);
-        Button sixButton = (Button)findViewById(R.id.sixButton);
-        Button sevenButton = (Button)findViewById(R.id.sevenButton);
-        Button eightButton = (Button)findViewById(R.id.eightButton);
-        Button nineButton = (Button)findViewById(R.id.nineButton);
-        Button zeroButton = (Button)findViewById(R.id.zeroButton);
-        Button clearAllButton = (Button) findViewById(R.id.clearAllBtn);
+        Button oneButton = findViewById(R.id.oneButton);
+        Button twoButton = findViewById(R.id.twoButton);
+        Button threeButton = findViewById(R.id.threeButton);
+        Button fourButton = findViewById(R.id.fourButton);
+        Button fiveButton = findViewById(R.id.fiveButton);
+        Button sixButton = findViewById(R.id.sixButton);
+        Button sevenButton = findViewById(R.id.sevenButton);
+        Button eightButton = findViewById(R.id.eightButton);
+        Button nineButton = findViewById(R.id.nineButton);
+        Button zeroButton = findViewById(R.id.zeroButton);
+        Button clearAllButton = findViewById(R.id.clearAllBtn);
 
 
 
-        ImageButton equalButton = (ImageButton) findViewById(R.id.equalButton);
-        ImageButton divideButton = (ImageButton)findViewById(R.id.divideButton);
-        ImageButton multiplyButton = (ImageButton)findViewById(R.id.multiplyButton);
-        ImageButton subtractButton = (ImageButton)findViewById(R.id.subtractButton);
-        ImageButton addButton = (ImageButton)findViewById(R.id.addButton);
+        ImageButton equalButton = findViewById(R.id.equalButton);
+        ImageButton divideButton = findViewById(R.id.divideButton);
+        ImageButton multiplyButton = findViewById(R.id.multiplyButton);
+        ImageButton subtractButton = findViewById(R.id.subtractButton);
+        ImageButton addButton = findViewById(R.id.addButton);
 
-        Button delButton = (Button)findViewById(R.id.delButton);
-        resultsText = (TextView)findViewById(R.id.resultsText);
-        processView = (TextView)findViewById(R.id.processView);
+        Button delButton = findViewById(R.id.delButton);
+        resultsText = findViewById(R.id.resultsText);
+        processView = findViewById(R.id.processView);
 
 
 
@@ -59,9 +59,8 @@ public class CalcActivity extends Activity {
         oneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
-                processView.setText(runningNUmber + "1");
+                processView.setText(String.format("%s1", runningNUmber));
 
 
             }
@@ -70,9 +69,8 @@ public class CalcActivity extends Activity {
         twoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
-                processView.setText(runningNUmber + "2");
+                processView.setText(String.format("%s2", runningNUmber));
 
             }
         });
@@ -80,9 +78,8 @@ public class CalcActivity extends Activity {
         threeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
-                processView.setText(runningNUmber + "3");
+                processView.setText(String.format("%s3", runningNUmber));
 
             }
         });
@@ -90,9 +87,8 @@ public class CalcActivity extends Activity {
         fourButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
-                processView.setText(runningNUmber + "4");
+                processView.setText(String.format("%s4", runningNUmber));
 
             }
         });
@@ -100,9 +96,8 @@ public class CalcActivity extends Activity {
         fiveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
-                processView.setText(runningNUmber + "5");
+                processView.setText(String.format("%s5", runningNUmber));
 
             }
         });
@@ -110,9 +105,8 @@ public class CalcActivity extends Activity {
         sixButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
-                processView.setText(runningNUmber + "6");
+                processView.setText(String.format("%s6", runningNUmber));
 
             }
         });
@@ -120,9 +114,8 @@ public class CalcActivity extends Activity {
         sevenButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
-                processView.setText(runningNUmber + "7");
+                processView.setText(String.format("%s7", runningNUmber));
 
             }
         });
@@ -130,9 +123,8 @@ public class CalcActivity extends Activity {
         eightButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
-                processView.setText(runningNUmber + "8");
+                processView.setText(String.format("%s8", runningNUmber));
 
             }
         });
@@ -140,9 +132,8 @@ public class CalcActivity extends Activity {
         nineButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
-                processView.setText(runningNUmber + "9");
+                processView.setText(String.format("%s9", runningNUmber));
 
             }
         });
@@ -150,9 +141,8 @@ public class CalcActivity extends Activity {
         zeroButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
-                processView.setText(runningNUmber + "0");
+                processView.setText(String.format("%s0", runningNUmber));
 
             }
         });
@@ -189,7 +179,6 @@ public class CalcActivity extends Activity {
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
                 processView.setText(runningNUmber += "+");
 
@@ -200,7 +189,6 @@ public class CalcActivity extends Activity {
         subtractButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
                 processView.setText(runningNUmber + "-");
 
@@ -211,7 +199,6 @@ public class CalcActivity extends Activity {
         divideButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
                 processView.setText(runningNUmber + ":");
 
@@ -222,7 +209,6 @@ public class CalcActivity extends Activity {
         multiplyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //clearText();
                 runningNUmber = processView.getText().toString();
                 processView.setText(runningNUmber + "x");
 
